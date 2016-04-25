@@ -1,4 +1,4 @@
-# For python 2.7
+# python 2.7
 # This is program to extract a tutorial from the website tutorialpoint.com
 # First a HTML is created and then a corresponding pdf. Both the files are available.
 # Changing the mainURL can lead to extraction of any tutorial.
