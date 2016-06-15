@@ -24,7 +24,7 @@ tempAccessHTML.close()
 
 # making soup of the tempAccessHTML
 tempAccessHTML = open('tempAccessHTML.html', 'r')
-mainSoup = BeautifulSoup(tempAccessHTML, 'html.parser')
+mainSoup = BeautifulSoup(tempAccessHTML, 'html5lib')
 tempAccessHTML.close()
 
 nameOfSubject = mainSoup.title.string
@@ -61,7 +61,7 @@ for link in linkList[1:]:
         tempAccessHTML.write( tempPage)
         tempAccessHTML.close()
         tempAccessHTML = open('tempAccessHTML.html', 'r')
-        soup = BeautifulSoup(tempAccessHTML, 'html.parser')
+        soup = BeautifulSoup(tempAccessHTML, 'html5lib')
         tempAccessHTML.close()
 
         # removing all the forms in the html
