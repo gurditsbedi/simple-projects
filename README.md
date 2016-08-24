@@ -6,5 +6,8 @@ This repo contains some of my time-pass projects which I had created for fun OR 
 
 2. facets.la_downloader.py : Downloads all the availble wallpaper from http://www.facets.la .
 
+3. way2.py : This program uses way2sms.com to send a sms, but just by using a python script. You have to INSERT YOUR OWN USERNAME, PASSWORD AND RECEIVERS_NUMBER ELSE IT WILL NOT WORK. You can also convert it to a command line tool.
+
+
 #C
 1. bullsAndCows.c : This is a implementation of "Bulls and Cows" logic game. More info about the game at https://en.wikipedia.org/wiki/Bulls_and_Cows . 
